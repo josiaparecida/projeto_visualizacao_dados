@@ -1,18 +1,15 @@
 # Projeto Visualização de Dados  
 
-<p align="justify"> 
-
 ## Análise das métricas de acurácia de mapas de uso e cobertura do solo  
 Este projeto tem como objetivo analisar as incertezas que as ferramentas de acurácias de mapas de uso e cobertura do solo podem apresentar na validação de mapas.  
 
 ### Introdução 
-<p align="justify"> 
 Classificação de imagens é a abordagem mais comum para mensurar a acurácia (Lyons, 2018), onde geralmente é referida ao mapeamento temático, a rotulação de objetos e características de determinados grupos baseados em seus atributos (Sokal, 1974; Jensen, 2015). A avaliação da acurácia indica a qualidade do mapa que foi criado através dos dados de sensoriamento remoto, sendo dividida em acurácia posicional e acurácia temática (Congalton e Green, 2009.p. 02).<br/> 
  A acurácia posicional corresponde à diferença da concordância locacional entre dados gerados por Sensoriamento Remoto e pontos terrestres conhecidos ou outra fonte
 considerada mais precisa que o mapa (Bolstad, 2005; Congalton, 2009.p.12). Já a acurácia temática avalia a concordância entre a classificação ou atributos dos recursos de um mapa gerados e a verdade em campo, geralmente representada através de uma matriz de confusão (Congalton, 2009.p. 32). Em outras palavras, a matriz de confusão é o resultado de uma tabulação cruzada entre dados classificados (através de análises por sensoriamento remoto por ensoriamento) e os dados de referência (dados válidos) (Comber et al, 2019).
 Através da matriz de confusão podem ser aplicadas várias medidas para avaliar a acurácia dos dados, dentre elas tem-se a Acurácia Total, a estatística Kappa de Cohen, o
 Índice de Tau, dentre outras.<br/>
-O objetivo desse trabalho é analisar a confiabilidade de cinco índices de acurácias baseadas na matriz de confusão: acurácia total, Kappa, Pi de Scott, Tau e Pabak.</p>
+O objetivo desse trabalho é analisar a confiabilidade de cinco índices de acurácias baseadas na matriz de confusão: acurácia total, Kappa, Pi de Scott, Tau e Pabak.
   
 ### Descrição do problema  
 <p align="justify">
@@ -50,7 +47,6 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.</p>
 ###### Tabela 1: Daataframe com as três primeiras linhas
 
 ### Programas e Pacotes
-<p align="justify">
   O Software utilizado para a análise dos dados e a construção dos gráficos foi o Rstudio 1.2.5033 e seus pacotes foram:   
  
  -  dplyr
@@ -60,12 +56,11 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.</p>
  - ggplot2
  - parcoords
  - plotly</br>
- Foram realizadas imagens interativas e não interativas, de modo que as não interativas são uma alternativa para inserir na dissertação impressa.</p></br>
+ Foram realizadas imagens interativas e não interativas, de modo que as não interativas são uma alternativa para inserir na dissertação impressa.</br>
 
 ### Análises
 #### Interativas
-<p align="justify">
-Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída sem considerar as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa".</p></br>
+Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída sem considerar as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa".</br>
 
 <img src="/D:/Doutorado/3-Visualizacao_Dados/projeto/graficos/ati.html">
 
