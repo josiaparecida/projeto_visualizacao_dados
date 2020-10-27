@@ -69,6 +69,11 @@ Incialmente são analisadas como as acurácias calculadas por cada métrica est�
 
 <img src="/D:/Doutorado/3-Visualizacao_Dados/projeto/graficos/ati.html">
 
+josiaparecida.github.io/projeto_visualizacao_dados/ati.html
+
+<img src="/josiaparecida.github.io/projeto_visualizacao_dados/ati.html">
+
+
 
 #### Não interativas
 
