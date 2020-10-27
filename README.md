@@ -43,7 +43,7 @@ Resumindo: o dataframe contém 6264 linhas e 10 colunas (variáveis), sendo:
 Na tabela 1 é mostrada as três primeiras linhas do dataframe.</p>
 
 | Classes   | Modelo de Mapa   | Tamanho de Janela   | Acurácia Atribuída   | Acurácia Total   | Kappa   | Tau     | Pi de Scott   | Pabak   | Amostragem   |
-| --------- |:----------------:| ------------------: | --------------------:|-----------------:| -------:|------:  |--------------:|--------:|-------------:|
+| --------- |:----------------:| ------------------: | --------------------:|-----------------:| -------:|--------:|--------------:|--------:|-------------:|
 | 4c        | A                | 5x5                 | 0.50                 | 0.514375         | 0.348899| 0.352500| 0.348188      | 0.028750| Sistemática  |
 | 4c        | A                | 5x5                 | 0.50                 | 0.532500         | 0.373507| 0.376667| 0.373479      | 0.065000| Sistemática  |
 | 4c        | A                | 5x5                 | 0.50                 | 0.571795         | 0.424826| 0.429060| 0.424294      | 0.985710| Sistemática  |
