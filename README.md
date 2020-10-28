@@ -4,11 +4,11 @@
 Este projeto tem como objetivo analisar as incertezas que as ferramentas de acurácias de mapas de uso e cobertura do solo podem apresentar na validação de mapas.  
 
 ### Introdução 
-Classificação de imagens é a abordagem mais comum para mensurar a acurácia (Lyons, 2018), onde geralmente é referida ao mapeamento temático, a rotulação de objetos e características de determinados grupos baseados em seus atributos (Sokal, 1974; Jensen, 2015). A avaliação da acurácia indica a qualidade do mapa que foi criado através dos dados de sensoriamento remoto, sendo dividida em acurácia posicional e acurácia temática (Congalton e Green, 2009.p. 02).
+<p align="justify">Classificação de imagens é a abordagem mais comum para mensurar a acurácia (Lyons, 2018), onde geralmente é referida ao mapeamento temático, a rotulação de objetos e características de determinados grupos baseados em seus atributos (Sokal, 1974; Jensen, 2015). A avaliação da acurácia indica a qualidade do mapa que foi criado através dos dados de sensoriamento remoto, sendo dividida em acurácia posicional e acurácia temática (Congalton e Green, 2009.p. 02).
  A acurácia posicional corresponde à diferença da concordância locacional entre dados gerados por Sensoriamento Remoto e pontos terrestres conhecidos ou outra fonte
 considerada mais precisa que o mapa (Bolstad, 2005; Congalton, 2009.p.12). Já a acurácia temática avalia a concordância entre a classificação ou atributos dos recursos de um mapa gerados e a verdade em campo, geralmente representada através de uma matriz de confusão (Congalton, 2009.p. 32). Em outras palavras, a matriz de confusão é o resultado de uma tabulação cruzada entre dados classificados (através de análises por sensoriamento remoto por ensoriamento) e os dados de referência (dados válidos) (Comber et al, 2019).
 Através da matriz de confusão podem ser aplicadas várias medidas para avaliar a acurácia dos dados, dentre elas tem-se a Acurácia Total, a estatística Kappa de Cohen, o
-Índice de Tau, dentre outras.
+Índice de Tau, dentre outras.</p>
 O objetivo desse trabalho é analisar a confiabilidade de cinco índices de acurácias baseadas na matriz de confusão: acurácia total, Kappa, Pi de Scott, Tau e Pabak.
   
 ### Descrição do problema  
@@ -43,6 +43,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 | 4c        | A                | 5x5                 | 0.50                 | 0.514375         | 0.348899| 0.352500| 0.348188      | 0.028750| Sistemática  |
 | 4c        | A                | 5x5                 | 0.50                 | 0.532500         | 0.373507| 0.376667| 0.373479      | 0.065000| Sistemática  |
 | 4c        | A                | 5x5                 | 0.50                 | 0.571795         | 0.424826| 0.429060| 0.424294      | 0.985710| Sistemática  |
+
 ###### Tabela 1: Daataframe com as três primeiras linhas
 
 ### Programas e Pacotes
@@ -60,11 +61,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 #### Interativas
 Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída sem considerar as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa".
 
-[Boxplot Acurácia Total](https://github.com/josiaparecida/projeto_visualizacao_dados/blob/main/boxlplotacuraciatotal.html)
-
-[boxplot](https://github.com/josiaparecida/projeto_visualizacao_dados/blob/main/aucraciatotal.html)
-
-[boxplot](aucraciatotal.html)
+[Boxplot](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
 
 #### Não interativas
 
