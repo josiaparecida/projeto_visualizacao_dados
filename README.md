@@ -63,8 +63,6 @@ Quando observado a amplitude ou variablidade, a acurácia total é a única mét
 
 Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria positiva e por vezes quase simétrico. Além disso, os valores da média e mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.
 
-
-
 ###### Gráfico 1: Boxplot da Acurácia Total
 [Boxplot da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
 
