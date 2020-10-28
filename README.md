@@ -77,7 +77,8 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 
 #### Gráficos não interativos
 
-![bpAT](https://user-images.githubusercontent.com/73483644/97359708-f1b2c100-187b-11eb-920b-6cdc0368dacd.png = 250x149)  
+##### Boxplots
+![bpAT](https://user-images.githubusercontent.com/73483644/97359708-f1b2c100-187b-11eb-920b-6cdc0368dacd.png)  
 
 ![bpKP](https://user-images.githubusercontent.com/73483644/97359736-fd05ec80-187b-11eb-8481-b6ed748e9888.png)  
 
@@ -85,5 +86,20 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 
 ![bpPI](https://user-images.githubusercontent.com/73483644/97359743-00997380-187c-11eb-8712-544eecf7dda1.png)  
 
-![bpTAU](https://user-images.githubusercontent.com/73483644/97359751-02fbcd80-187c-11eb-91e0-82da2c375383.png)  
+![bpTAU](https://user-images.githubusercontent.com/73483644/97359751-02fbcd80-187c-11eb-91e0-82da2c375383.png) 
+
+##### Histogramas
+
+![histogramaAT](https://user-images.githubusercontent.com/73483644/97437865-d63ec900-1902-11eb-9879-19a4ab8d5af3.png)
+
+![histogramaKAPPA](https://user-images.githubusercontent.com/73483644/97437908-e5257b80-1902-11eb-9a84-534e287ef9b3.png)
+
+![histPABAK](https://user-images.githubusercontent.com/73483644/97437905-e48ce500-1902-11eb-8113-3f762b141aeb.png)
+
+![histogramaPI](https://user-images.githubusercontent.com/73483644/97437911-e5be1200-1902-11eb-8cb1-5917b18a0d07.png)
+
+![histogramaTAU](https://user-images.githubusercontent.com/73483644/97437900-e3f44e80-1902-11eb-9691-07887ce4fc40.png)
+
+
+
 
