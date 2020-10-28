@@ -4,14 +4,14 @@
 Este projeto tem como objetivo analisar as incertezas que as ferramentas de acurácias de mapas de uso e cobertura do solo podem apresentar na validação de mapas.  
 
 ### Introdução 
-<p align="justify">Classificação de imagens é a abordagem mais comum para mensurar a acurácia (Lyons, 2018), onde geralmente é referida ao mapeamento temático, a rotulação de objetos e características de determinados grupos baseados em seus atributos (Sokal, 1974; Jensen, 2015). A avaliação da acurácia indica a qualidade do mapa que foi criado através dos dados de sensoriamento remoto, sendo dividida em acurácia posicional e acurácia temática (Congalton e Green, 2009.p. 02).  
+<p align="justify">Classificação de imagens é a abordagem mais comum para mensurar a acurácia (Lyons, 2018), onde geralmente é referida ao mapeamento temático, a rotulação de objetos e características de determinados grupos baseados em seus atributos (Sokal, 1974; Jensen, 2015). A avaliação da acurácia indica a qualidade do mapa que foi criado através dos dados de sensoriamento remoto, sendo dividida em acurácia posicional e acurácia temática (Congalton e Green, 2009.p. 02).</br> 
  A acurácia posicional corresponde à diferença da concordância locacional entre dados gerados por Sensoriamento Remoto e pontos terrestres conhecidos ou outra fonte
 considerada mais precisa que o mapa (Bolstad, 2005; Congalton, 2009.p.12). Já a acurácia temática avalia a concordância entre a classificação ou atributos dos recursos de um mapa gerados e a verdade em campo, geralmente representada através de uma matriz de confusão (Congalton, 2009.p. 32). Em outras palavras, a matriz de confusão é o resultado de uma tabulação cruzada entre dados classificados (através de análises por sensoriamento remoto por ensoriamento) e os dados de referência (dados válidos) (Comber et al, 2019).
 Através da matriz de confusão podem ser aplicadas várias medidas para avaliar a acurácia dos dados, dentre elas tem-se a Acurácia Total, a estatística Kappa de Cohen, o
 Índice de Tau, dentre outras.</p>
 <p align="justify">O objetivo desse trabalho é analisar a confiabilidade de cinco índices de acurácias baseadas na matriz de confusão: acurácia total, Kappa, Pi de Scott, Tau e Pabak.</p>
   
-### Descrição do problema  
+### Descrição do problema 
 <p align="justify">Inicialmente, são criados mapas de referência e mapas de classificação com 4, 5 e 6 classes. Sendo que para a construção dos mapas de classificação, são realizadas alterações nos mapas de referências atribuindo valores de acurácia (50%, 70%, 85% e 95%). Com os dois mapas prontos, são considerados que os valores de acurácia (acurácia real ou atribuída) são desconhecidos e são calculadas novos valores de acurácias (acurácia calculada) variando o tipo de amostragem (aleatória, sistemática) e o tamanho das janelas (5x5, 20x20 e 25x25). Os cálculos são realizados por quatro ferramentas de acurácias baseadas na matriz de confusão (Acurácia Total, Kappa, Pi de Scott e Pabak).</p>
 Dois tópicos em questão estão sendo avaliados:  
 
@@ -19,16 +19,13 @@ Dois tópicos em questão estão sendo avaliados:
   
 * Como as ferramentas (ou métricas) de acurácia podem sofrer variações em suas acurácias calculadas com as variáveis: número de classes, tipo de amostra e tamanho da amostra.
 
- ### Base de dados   
+ ### Base de dados 
 <p align="justify">A base de dados provém da minha dissertação onde foram criados mapas, também chamados de mapas sintéticos. Os dados são qualitativos-quantitativos, uma vez que foram criados modelos de mapas para cada valor de acurácia.</p>
 Resumindo: o dataframe contém 6264 linhas e 10 colunas (variáveis), sendo:
   
 1. variáveis categóricas:
-  
 - Classes: 4, 5 e 6, 
-
 - Amostragem: Sistemática e Aleatória,
-
 - Modelo de mapa: A a I,  
 - Tamanho de Janela: 5x5, 20x20 e 25x25 pixels,  
 - Acurácia Atribuída: 0.50, 0.70, 0.85 e 0.95   
@@ -49,7 +46,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
   O Software utilizado para a análise dos dados e a construção dos gráficos foi o Rstudio 1.2.5033 e seus pacotes foram:   
  
  -  dplyr
-  - GGally
+ - GGally
  - stats
  - ggplot2
  - parcoords
