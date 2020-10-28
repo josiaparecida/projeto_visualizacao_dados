@@ -45,7 +45,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 ### Programas e Pacotes
   O Software utilizado para a análise dos dados e a construção dos gráficos foi o Rstudio 1.2.5033 e seus pacotes foram:   
  
- -  dplyr
+ - dplyr
  - GGally
  - stats
  - ggplot2
@@ -56,17 +56,26 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
  Devido a falta de experiência da autora (no caso eu) com programação de sites, os gráficos interativos foram inseridos através de links direcionando para outra página, o que não compromete a visualização uma vez que nos gráficos é possível realizar interações como por exemplo, selecionar a métrica de acurácia a ser analisada e dar zoom.
  
 ### Análises
-#### Interativas
-<p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída desconsiderando as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa". Para isso foram criados Boxplots para cada uma das métricas em relação as acurácias atribuídas e calculadas.</p>
+####  Gráficos Interativos
+<p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída desconsiderando as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa". Para isso foram criados Boxplots e Histogramas para cada uma das métricas em relação as acurácias atribuídas e calculadas.</p>
 
 ##### Gráfico 1: Boxplot da Acurácia Total
 [Boxplot da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
 
 ##### Gráfico 2: Boxplot do índice de Kappa
+[Boxplot do Índice de Kappa](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotKappa.html)
+
+##### Gráfico 3: Boxplot do Índice de Pabak
+[Boxplot do Índice de Pabak](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotPabak.html)
+
+##### Gráfico 4: Boxplot do Índice de Pi
+[Boxplot do Índice de Pi](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotPi.html)
+
+##### Gráfico 5: Boxplot do Índice de Tau
+[Boxplot do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
 
 
-
-#### Não interativas
+#### Gráficos não interativos
 
 ![bpAT](https://user-images.githubusercontent.com/73483644/97359708-f1b2c100-187b-11eb-920b-6cdc0368dacd.png)  
 
