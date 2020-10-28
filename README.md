@@ -19,7 +19,7 @@ Dois tópicos em questão estão sendo avaliados:
   
 * Como as ferramentas (ou métricas) de acurácia podem sofrer variações em suas acurácias calculadas com as variáveis: número de classes, tipo de amostra e tamanho da amostra.
 
- ### Base de dados 
+### Base de dados 
 <p align="justify">A base de dados provém da minha dissertação onde foram criados mapas, também chamados de mapas sintéticos. Os dados são qualitativos-quantitativos, uma vez que foram criados modelos de mapas para cada valor de acurácia.</p>
 Resumindo: o dataframe contém 6264 linhas e 10 colunas (variáveis), sendo:
   
