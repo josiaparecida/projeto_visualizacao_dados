@@ -23,7 +23,7 @@ Dois tópicos em questão estão sendo avaliados:
 <p align="justify">A base de dados provém da minha dissertação onde foram criados mapas, também chamados de mapas sintéticos. Os dados são qualitativos-quantitativos, uma vez que foram criados modelos de mapas para cada valor de acurácia.</p>
 Resumindo: o dataframe contém 6264 linhas e 10 colunas (variáveis), sendo:
   
-1. variáveis categóricas:
+1. Variáveis categóricas:
 - Classes: 4, 5 e 6, 
 - Amostragem: Sistemática e Aleatória,
 - Modelo de mapa: A a I,  
@@ -50,14 +50,21 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
  - stats
  - ggplot2
  - parcoords
- - plotly
- Foram realizadas imagens interativas e não interativas, de modo que as não interativas são uma alternativa para inserir na dissertação impressa.
-
+ - plotly  
+ 
+ Foram realizadas gráficos interativos e não interativos (ou estáticos), de modo que os não interativos são uma alternativa para inserir na dissertação impressa.   
+ Devido a falta de experiência da autora (no caso eu) com programação de sites, os gráficos interativos foram inseridos através de links direcionando para outra página, o que não compromete a visualização uma vez que nos gráficos é possível realizar interações como por exemplo, selecionar a métrica de acurácia a ser analisada e dar zoom.
+ 
 ### Análises
 #### Interativas
-<p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída sem considerar as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa".</p>
+<p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída desconsiderando as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa". Para isso foram criados Boxplots para cada uma das métricas em relação as acurácias atribuídas e calculadas.</p>
 
-[Boxplot](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
+##### Gráfico 1: Boxplot da Acurácia Total
+[Boxplot da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
+
+##### Gráfico 2: Boxplot do índice de Kappa
+
+
 
 #### Não interativas
 
