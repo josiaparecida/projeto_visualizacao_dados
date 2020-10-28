@@ -63,16 +63,16 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 [Boxplot da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
 
 ##### Gráfico 2: Boxplot do índice de Kappa
-[Boxplot do Índice de Kappa](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotKappa.html)
+[Boxplot do Índice de Kappa](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotKappa.html)
 
 ##### Gráfico 3: Boxplot do Índice de Pabak
-[Boxplot do Índice de Pabak](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotPabak.html)
+[Boxplot do Índice de Pabak](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotPabak.html)
 
 ##### Gráfico 4: Boxplot do Índice de Pi
-[Boxplot do Índice de Pi](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotPi.html)
+[Boxplot do Índice de Pi](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotPi.html)
 
 ##### Gráfico 5: Boxplot do Índice de Tau
-[Boxplot do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
+[Boxplot do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotTau.html)
 
 
 #### Gráficos não interativos
