@@ -61,13 +61,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 #### Interativas
 Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída sem considerar as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa".
 
-<img src="/D:/Doutorado/3-Visualizacao_Dados/projeto/graficos/ati.html">
 
-josiaparecida.github.io/projeto_visualizacao_dados/ati.html
-
-<img src="/josiaparecida.github.io/projeto_visualizacao_dados/ati.html">
-
-index.html
 
 
 
