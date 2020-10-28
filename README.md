@@ -77,7 +77,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 
 #### Gráficos não interativos
 
-![bpAT](https://user-images.githubusercontent.com/73483644/97359708-f1b2c100-187b-11eb-920b-6cdc0368dacd.png)  
+![bpAT](https://user-images.githubusercontent.com/73483644/97359708-f1b2c100-187b-11eb-920b-6cdc0368dacd.png=250x149)  
 
 ![bpKP](https://user-images.githubusercontent.com/73483644/97359736-fd05ec80-187b-11eb-8481-b6ed748e9888.png)  
 
