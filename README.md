@@ -59,35 +59,50 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 ####  Gráficos Interativos
 <p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída desconsiderando as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa". Para isso foram criados Boxplots e Histogramas para cada uma das métricas em relação as acurácias atribuídas e calculadas.</p>
 
-##### Gráfico 1: Boxplot da Acurácia Total
+Quando observado a amplitude ou variablidade, a acurácia total é a única métrica que se mantém em um intervalo positivo, entre 0 e 1, enquanto os índices restantes (Kappa, Pabak, Pi de Scott e Tau) se mantêm entre -1 e 1. Pabak é o índice com os daods de acurácias mais dispersos pem todas as acurácias atribuídas 
+
+Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria positiva e por vezes quase simétrico. Além disso, os valores da média e mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.
+
+
+
+###### Gráfico 1: Boxplot da Acurácia Total
 [Boxplot da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
 
-##### Gráfico 2: Boxplot do índice de Kappa
+###### Gráfico 2: Boxplot do índice de Kappa
 [Boxplot do Índice de Kappa](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotKappa.html)
 
-##### Gráfico 3: Boxplot do Índice de Pabak
+###### Gráfico 3: Boxplot do Índice de Pabak
 [Boxplot do Índice de Pabak](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotPabak.html)
 
-##### Gráfico 4: Boxplot do Índice de Pi
+###### Gráfico 4: Boxplot do Índice de Pi
 [Boxplot do Índice de Pi](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotPi.html)
 
-##### Gráfico 5: Boxplot do Índice de Tau
+###### Gráfico 5: Boxplot do Índice de Tau
 [Boxplot do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotTau.html)
 
-##### Gráfico 6: Histograma da Acurácia Total
+##### Opção 2 - Análise através de histogramas
+
+###### Gráfico 6: Histograma da Acurácia Total
 [Histograma da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaacuraciatotal.html)
 
-##### Gráfico 7: Histograma do índice de Kappa
+###### Gráfico 7: Histograma do índice de Kappa
 [Histograma do Índice de Kappa](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaKappa.html)
 
-##### Gráfico 8: Histograma do Índice de Pabak
+###### Gráfico 8: Histograma do Índice de Pabak
 [Histograma do Índice de Pabak](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaPabak.html)
 
-##### Gráfico 9: Hisotgrama do Índice de Pi
+###### Gráfico 9: Hisotgrama do Índice de Pi
 [Histograma do Índice de Pi](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaPi.html)
 
-##### Gráfico 10: Histograma do Índice de Tau
+###### Gráfico 10: Histograma do Índice de Tau
 [Histograma do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
+
+
+
+
+
+
+
 
 #### Gráficos não interativos
 
