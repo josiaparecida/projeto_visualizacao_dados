@@ -74,6 +74,20 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 ##### Gráfico 5: Boxplot do Índice de Tau
 [Boxplot do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxplotTau.html)
 
+##### Gráfico 6: Histograma da Acurácia Total
+[Histograma da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaacuraciatotal.html)
+
+##### Gráfico 7: Histograma do índice de Kappa
+[Histograma do Índice de Kappa](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaKappa.html)
+
+##### Gráfico 8: Histograma do Índice de Pabak
+[Histograma do Índice de Pabak](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaPabak.html)
+
+##### Gráfico 9: Hisotgrama do Índice de Pi
+[Histograma do Índice de Pi](https://josiaparecida.github.io/projeto_visualizacao_dados/histogramaPi.html)
+
+##### Gráfico 10: Histograma do Índice de Tau
+[Histograma do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
 
 #### Gráficos não interativos
 
