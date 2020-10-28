@@ -62,7 +62,9 @@ Incialmente são analisadas como as acurácias calculadas por cada métrica est�
 
 [Boxplot Acurácia Total](https://github.com/josiaparecida/projeto_visualizacao_dados/blob/main/boxlplotacuraciatotal.html)
 
-[boxplot]aucraciatotal.html
+[boxplot](https://github.com/josiaparecida/projeto_visualizacao_dados/blob/main/aucraciatotal.html)
+
+[boxplot](aucraciatotal.html)
 
 #### Não interativas
 
