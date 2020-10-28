@@ -49,8 +49,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
   O Software utilizado para a análise dos dados e a construção dos gráficos foi o Rstudio 1.2.5033 e seus pacotes foram:   
  
  -  dplyr
- 
- - GGally
+  - GGally
  - stats
  - ggplot2
  - parcoords
@@ -61,7 +60,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 #### Interativas
 Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída sem considerar as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa".
 
-
+[Boxplot Acurácia Total](https://github.com/josiaparecida/projeto_visualizacao_dados/blob/main/boxlplotacuraciatotal.html)
 
 
 
