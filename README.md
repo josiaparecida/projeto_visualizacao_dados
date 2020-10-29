@@ -136,6 +136,12 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 [Paralelas Coordenadas](https://josiaparecida.github.io/projeto_visualizacao_dados/paralelascoordenadas.html)
 
 ### Conclusão 
+Pi de Scott e Kappa apresentam distribuições próximas uma da outra.
+À medida que aumenta o número de classes e a janela a acurácia atribuída tende a ser mais próxima da acurácia calculada,Já entre as amostra, a amostragem sistemática tende a apresentar maior concentração dos dados do que a aleatória.
+Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria positiva e por vezes quase simétrico. Além disso, os valores da média e mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.
+
+
+
 #### Gráficos não interativos
 ![scatterplot](https://user-images.githubusercontent.com/73483644/97517753-8e588a00-1974-11eb-8cd3-0d7adb706c13.png)
 
