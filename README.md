@@ -52,8 +52,8 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
  - parcoords
  - plotly  
  
- Foram realizadas gráficos interativos e não interativos (ou estáticos), de modo que os não interativos são uma alternativa para inserir na dissertação impressa.   
- Devido a falta de experiência da autora (no caso eu) com programação de sites, os gráficos interativos foram inseridos através de links direcionando para outra página, o que não compromete a visualização uma vez que nos gráficos é possível realizar interações como por exemplo, selecionar a métrica de acurácia a ser analisada e dar zoom.
+<p align="justify">Foram realizadas gráficos interativos e não interativos (ou estáticos), de modo que os não interativos são uma alternativa para inserir na dissertação impressa.</p>     
+<p align="justify">Devido a falta de experiência da autora (no caso eu) com programação de sites, os gráficos interativos foram inseridos através de links direcionando para outra página, o que não compromete a visualização uma vez que nos gráficos é possível realizar interações como por exemplo, selecionar a métrica de acurácia a ser analisada e dar zoom.</p>
  
 ### Análises
 ####  Gráficos Interativos
@@ -98,7 +98,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
 <p align="justify">Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Classes" variam em cada tipo de amostragem: sistemática e aleatória.
 Em relação à análise sistemárica, os índices apresentam o mesmo comportamento acima, onde a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.</p>
  
-<p align="justify"><p align="justify">Quando há o aumento do número de classes em um tamanho de janela, como por exemplo 5x5, as acurácias calculadas se tornam menos dispersas, ou seja, há menor variabilidade dos dados, exceto para a acurácia atribuída de 0.50 e 0.70 que sofrem variações aumentando (Acurácia Total e Tau), diminuindo (Pi de Scott) e oscilando entre aumentar e diminuir (Pabak e Kappa).</p> 
+<p align="justify">Quando há o aumento do número de classes em um tamanho de janela, como por exemplo 5x5, as acurácias calculadas se tornam menos dispersas, ou seja, há menor variabilidade dos dados, exceto para a acurácia atribuída de 0.50 e 0.70 que sofrem variações aumentando (Acurácia Total e Tau), diminuindo (Pi de Scott) e oscilando entre aumentar e diminuir (Pabak e Kappa).</p> 
 
 <p align="justify">À medida que o número de classes aumenta, as medianas das acurácias calculadas de 0.50 e 0.70 variam em um intervalo de ±0.07 e 0.85 e 0.95 variam de ±0.05, isto acontece em todos os três tamanhos de janelas, sendo esse comportamento similar em todos os índices de acurácia.
 Quando o número de classes é constante e aumenta o tamanho da janela há uma redução da amplitude dos dados, porém as medianas não apresentam um comportamento de aumento ou redução, ou seja, ora aumenta ora diminui. Os intervalos interquartílicos sofrem menores variações (de aumento ou redução) quando os índices de acurácias são maiores (0.85 e 0.95), assim como são as acurácias que possuem seus valores mais próximos das acurácias calculadas. Mais uma vez, tal comportamento é similar para todos os índices de acurácias.</p>
