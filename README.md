@@ -52,7 +52,7 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
  - parcoords
  - plotly  
  
-<p align="justify">Foram realizadas gráficos interativos e não interativos (ou estáticos), de modo que os não interativos são uma alternativa para inserir na dissertação impressa.</p>     
+<p align="justify">Foram realizadas gráficos interativos e não interativos (ou estáticos), de modo que os não interativos são uma alternativa para inserir na dissertação impressa. Tanto para os boxplots quanto para os histogramas foram definidos uma cor fixa para cada acurácia atribuída, apenas o scatterplot que eu não consegui trocar a cor.</p>     
 <p align="justify">Devido a falta de experiência da autora (no caso eu) com programação de sites, os gráficos interativos foram inseridos através de links direcionando para outra página, o que não compromete a visualização uma vez que nos gráficos é possível realizar interações como por exemplo, selecionar a métrica de acurácia a ser analisada e dar zoom.</p>
  
 ### Análises
