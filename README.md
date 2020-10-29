@@ -137,6 +137,7 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 
 
 #### Gráficos não interativos
+![scatterplot](https://user-images.githubusercontent.com/73483644/97517753-8e588a00-1974-11eb-8cd3-0d7adb706c13.png)
 
 ##### Boxplots
 ![bpAT](https://user-images.githubusercontent.com/73483644/97359708-f1b2c100-187b-11eb-920b-6cdc0368dacd.png)  
