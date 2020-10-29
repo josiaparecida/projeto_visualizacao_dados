@@ -98,7 +98,20 @@ Todos os índices de acurácia apresentam menores dispersões dos dados quando o
 Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Classes" variam em cada tipo de amostragem: sistemática e aleatória.
 
 
+###### Gráfico 11: Histograma da Acurácia Total para amostragem sistemática
+[Histograma da Acurácia Total para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpatsist.html)
 
+###### Gráfico 12: Histograma do índice de Kappa para amostragem sistemática
+[Histograma do Índice de Kappa para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpsist.html)
+
+###### Gráfico 13: Histograma do Índice de Pabak para amostragem sistemática
+[Histograma do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppksist.html)
+
+###### Gráfico 14: Histograma do Índice de Pi para amostragem sistemática
+[Histograma do Índice de Pi para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppisiste.html)
+
+###### Gráfico 15: Histograma do Índice de Tau para amostragem sistemática
+[Histograma do Índice de Tau para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bptausist.html)
 
 
 
@@ -128,5 +141,15 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 ![histogramaTAU](https://user-images.githubusercontent.com/73483644/97437900-e3f44e80-1902-11eb-9691-07887ce4fc40.png)
 
 
+###### Gráfico 11: Boxplots da Acurácia Total para amostragem sistemática
+![bpatsistematica](https://user-images.githubusercontent.com/73483644/97510911-8abd0700-1964-11eb-9907-da66572d9edc.png)
+###### Gráfico 12: Boxplots do Índice de Kappa para amostragem sistemática
+![bpkpsist](https://user-images.githubusercontent.com/73483644/97510942-a2948b00-1964-11eb-8199-920f8a719992.png) 
+###### Gráfico 6: Boxplots do Índice de Pabak para amostragem sistemática
+![bppbsist](https://user-images.githubusercontent.com/73483644/97510939-a1635e00-1964-11eb-9cd7-146e892cd02a.png)
+###### Gráfico 13: Boxplots do Índice de Pi de Scott para amostragem sistemática
+![bppisistematica](https://user-images.githubusercontent.com/73483644/97510938-a0cac780-1964-11eb-8ddf-2844d51c2d39.png)
+###### Gráfico 14: Boxplots do Índice de Tau para amostragem sistemática
+![bptausist](https://user-images.githubusercontent.com/73483644/97510935-a0323100-1964-11eb-8b9b-2a156d8baa81.png)
 
 
