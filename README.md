@@ -150,6 +150,8 @@ Contudo na amostragem aleatória acontece uma menor variação, o que favorece a
 
 
 #### Gráficos não interativos
+
+###### Scatterplot  
 ![scatterplot](https://user-images.githubusercontent.com/73483644/97517753-8e588a00-1974-11eb-8cd3-0d7adb706c13.png)
 
 ##### Boxplots
