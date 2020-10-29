@@ -144,7 +144,7 @@ Quando o número de classes é constante e aumenta o tamanho da janela há uma r
 
 <p align="justify"> Tanto na amostragem sistemática quanto na aleatória, a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1, Pabak possui maior dispersão e interquartil dentre as acurácias, e os índices Pi de Scott e Kappa apresentam distribuições próximas uma da outra. 
 Contudo, a amostragem aleatória apresenta menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95). Além disso, em ambas as amostragens a variação entre as medianas das acurácias calculadas de 0.50 e 0.70 são maiores que de 0.85 e 0.95. Em relação ao aumento do tamanho da janela, há uma pequena redução no número de outliers, mas o aumento não influencia no aumento dos valores das acurácias, visto que as medianas permanceme próximas. Já o aumento do número de classes, faz com que as medianas se aproximem mais das acurácias atribuídas e reduzem a amplitude.
-Contudo na amostragem aleatória acontece uma menor variação, o que favorece a proximidade da mediana e da média com as acurácias atribuídas. 
+Contudo na amostragem aleatória acontece uma menor variação, o que favorece a proximidade da mediana e da média com as acurácias atribuídas.</p> 
 
 
 
