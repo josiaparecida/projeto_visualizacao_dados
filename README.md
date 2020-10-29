@@ -140,8 +140,6 @@ Quando o número de classes é constante e aumenta o tamanho da janela há uma r
 [Coordenadas Paralelas](https://josiaparecida.github.io/projeto_visualizacao_dados/paralelascoordenadas.html)
 
 ### Conclusão 
-
-
 <p align="justify"> Tanto na amostragem sistemática quanto na aleatória, a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1, Pabak possui maior dispersão e interquartil dentre as acurácias, e os índices Pi de Scott e Kappa apresentam distribuições próximas uma da outra. 
 Contudo, a amostragem aleatória apresenta menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95). Além disso, em ambas as amostragens a variação entre as medianas das acurácias calculadas de 0.50 e 0.70 são maiores que de 0.85 e 0.95. Em relação ao aumento do tamanho da janela, há uma pequena redução no número de outliers, mas o aumento não influencia no aumento dos valores das acurácias, visto que as medianas permanceme próximas. Já o aumento do número de classes, faz com que as medianas se aproximem mais das acurácias atribuídas e reduzem a amplitude.
 Contudo na amostragem aleatória acontece uma menor variação, o que favorece a proximidade da mediana e da média com as acurácias atribuídas.</p> 
@@ -187,10 +185,15 @@ Contudo na amostragem aleatória acontece uma menor variação, o que favorece a
 ![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97514322-2b172980-196d-11eb-96ec-248df30f64db.png)
 
 ![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97514322-2b172980-196d-11eb-96ec-248df30f64db.png)
+
 ![bptaualeatoria](https://user-images.githubusercontent.com/73483644/97516342-ad095180-1971-11eb-8154-a7e695074b9b.png)
+
 ![bppialeatoria](https://user-images.githubusercontent.com/73483644/97516346-ae3a7e80-1971-11eb-968e-bca7cfe9f45c.png)
+
 ![bppbaleatoria](https://user-images.githubusercontent.com/73483644/97516347-aed31500-1971-11eb-883a-ecf7c2258306.png)
+
 ![bpkpaleatoria](https://user-images.githubusercontent.com/73483644/97516350-af6bab80-1971-11eb-81e1-a78e61989797.png)
+
 ![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97516352-b0044200-1971-11eb-981b-a5a9330c87de.png)
 
 
