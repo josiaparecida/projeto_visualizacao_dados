@@ -95,7 +95,7 @@ Todos os índices de acurácia apresentam menores dispersões dos dados quando o
 ###### Gráfico 10: Histograma do Índice de Tau
 [Histograma do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
 
-
+Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Classes" variam em cada tipo de amostragem: sistemática e aleatória.
 
 
 
