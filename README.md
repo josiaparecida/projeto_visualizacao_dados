@@ -115,6 +115,25 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 
 
 
+
+
+###### Gráfico 11: Histograma da Acurácia Total para amostragem aleatória
+[Histograma da Acurácia Total para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpatsist.html)
+
+###### Gráfico 12: Histograma do índice de Kappa para amostragem aleatória
+[Histograma do Índice de Kappa para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpsist.html)
+
+###### Gráfico 13: Histograma do Índice de Pabak para amostragem aleatória
+[Histograma do Índice de Pabak para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppsist.html)
+
+###### Gráfico 14: Histograma do Índice de Pi para amostragem aleatória
+[Histograma do Índice de Pi para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppisiste.html)
+
+###### Gráfico 15: Histograma do Índice de Tau para amostragem aleatória
+[Histograma do Índice de Tau para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bptausist.html)
+
+
+
 #### Gráficos não interativos
 
 ##### Boxplots
