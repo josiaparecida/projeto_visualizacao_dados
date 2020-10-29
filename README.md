@@ -173,5 +173,13 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 
 ![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97514322-2b172980-196d-11eb-96ec-248df30f64db.png)
 
+![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97514322-2b172980-196d-11eb-96ec-248df30f64db.png)
+![bptaualeatoria](https://user-images.githubusercontent.com/73483644/97516342-ad095180-1971-11eb-8154-a7e695074b9b.png)
+![bppialeatoria](https://user-images.githubusercontent.com/73483644/97516346-ae3a7e80-1971-11eb-968e-bca7cfe9f45c.png)
+![bppbaleatoria](https://user-images.githubusercontent.com/73483644/97516347-aed31500-1971-11eb-883a-ecf7c2258306.png)
+![bpkpaleatoria](https://user-images.githubusercontent.com/73483644/97516350-af6bab80-1971-11eb-81e1-a78e61989797.png)
+![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97516352-b0044200-1971-11eb-981b-a5a9330c87de.png)
+
+
 
 
