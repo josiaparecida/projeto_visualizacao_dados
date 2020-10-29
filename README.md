@@ -105,7 +105,7 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 [Histograma do Índice de Kappa para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpsist.html)
 
 ###### Gráfico 13: Histograma do Índice de Pabak para amostragem sistemática
-[Histograma do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppksist.html)
+[Histograma do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppsist.html)
 
 ###### Gráfico 14: Histograma do Índice de Pi para amostragem sistemática
 [Histograma do Índice de Pi para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppisiste.html)
