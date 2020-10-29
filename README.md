@@ -116,7 +116,6 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 
 
 
-
 ###### Gráfico 11: Histograma da Acurácia Total para amostragem aleatória
 [Histograma da Acurácia Total para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpataleatoria.html)
 
@@ -132,6 +131,9 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 ###### Gráfico 15: Histograma do Índice de Tau para amostragem aleatória
 [Histograma do Índice de Tau para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bptaualeatoria.html)
 
+
+##### Gráfico 16: Paralelas coordenadas
+[Paralelas Coordenadas](https://josiaparecida.github.io/projeto_visualizacao_dados/paralelascoordenadas.html)
 
 
 #### Gráficos não interativos
@@ -159,16 +161,17 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 
 ![histogramaTAU](https://user-images.githubusercontent.com/73483644/97437900-e3f44e80-1902-11eb-9691-07887ce4fc40.png)
 
+##### Boxplots por tipo de amostragem
 
-###### Gráfico 11: Boxplots da Acurácia Total para amostragem sistemática
 ![bpatsistematica](https://user-images.githubusercontent.com/73483644/97510911-8abd0700-1964-11eb-9907-da66572d9edc.png)
-###### Gráfico 12: Boxplots do Índice de Kappa para amostragem sistemática
+
 ![bpkpsist](https://user-images.githubusercontent.com/73483644/97510942-a2948b00-1964-11eb-8199-920f8a719992.png) 
-###### Gráfico 6: Boxplots do Índice de Pabak para amostragem sistemática
+
 ![bppbsist](https://user-images.githubusercontent.com/73483644/97510939-a1635e00-1964-11eb-9cd7-146e892cd02a.png)
-###### Gráfico 13: Boxplots do Índice de Pi de Scott para amostragem sistemática
+
 ![bppisistematica](https://user-images.githubusercontent.com/73483644/97510938-a0cac780-1964-11eb-8ddf-2844d51c2d39.png)
-###### Gráfico 14: Boxplots do Índice de Tau para amostragem sistemática
-![bptausist](https://user-images.githubusercontent.com/73483644/97510935-a0323100-1964-11eb-8b9b-2a156d8baa81.png)
+
+![bbtaualeatoria](https://user-images.githubusercontent.com/73483644/97514322-2b172980-196d-11eb-96ec-248df30f64db.png)
+
 
 
