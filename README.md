@@ -124,7 +124,7 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 [Histograma do Índice de Kappa para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpaleatoria.html)
 
 ###### Gráfico 13: Histograma do Índice de Pabak para amostragem aleatória
-[Histograma do Índice de Pabak para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppaleatoria.html)
+[Histograma do Índice de Pabak para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppbaleatoria.html)
 
 ###### Gráfico 14: Histograma do Índice de Pi para amostragem aleatória
 [Histograma do Índice de Pi para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppialeatoria.html)
