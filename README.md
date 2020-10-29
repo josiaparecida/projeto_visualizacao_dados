@@ -96,7 +96,7 @@ Todos os índices de acurácia apresentam menores dispersões dos dados quando o
 [Histograma do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
 
 Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Classes" variam em cada tipo de amostragem: sistemática e aleatória.
-
+Quando há o aumento do número de classes para um tamanho de janela, como pro exemplo 5x5, as acurácias calculadas se tornam menos dispersas, ou seja, há menor variabilidade dos dados, exceto para a acurácia atribuída de 0.50 que sofre variações aumentando (Acurácia Total e Tau), diminuindo (Pi de Scott).
 
 ###### Gráfico 11: Histograma da Acurácia Total para amostragem sistemática
 [Histograma da Acurácia Total para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpatsist.html)
@@ -105,7 +105,7 @@ Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Cla
 [Histograma do Índice de Kappa para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpsist.html)
 
 ###### Gráfico 13: Histograma do Índice de Pabak para amostragem sistemática
-[Histograma do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppsist.html)
+[Histograma do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppbsist.html)
 
 ###### Gráfico 14: Histograma do Índice de Pi para amostragem sistemática
 [Histograma do Índice de Pi para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppisiste.html)
