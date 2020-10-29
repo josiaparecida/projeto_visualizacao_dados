@@ -57,11 +57,11 @@ Na tabela 1 é mostrada as três primeiras linhas do dataframe.
  
 ### Análises
 ####  Gráficos Interativos
-<p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída desconsiderando as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa". Para isso foram criados Boxplots e Histogramas para cada uma das métricas em relação as acurácias atribuídas e calculadas.</p>
+<p align="justify">Incialmente são analisadas como as acurácias calculadas por cada métrica estão distribuídas em relação à acurácia atribuída desconsiderando as variáveis "Classes", "Tamanho de Janela", "Amostragem" e "Modelo de Mapa". Para isso foram criados Boxplots e Histogramas para cada uma das métricas em relação as acurácias atribuídas e calculadas. Vale ressaltar que a análise é focada na mediana, uma vez que a média sofre influência dos valores extremos. </p>
 
-<p align="justify">Quando observado a amplitude ou variablidade, a acurácia total é a única métrica que se mantém em um intervalo positivo, entre 0 e 1, enquanto os índices restantes (Kappa, Pabak, Pi de Scott e Tau) se mantêm entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.  
+<p align="justify">Quando observado a amplitude ou variablidade, a acurácia total é a única métrica que se mantém em um intervalo positivo, entre 0 e 1, enquanto os índices restantes (Kappa, Pabak, Pi de Scott e Tau) se mantêm entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.</p>  
 
-Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria negativa e por vezes quase simétrico. Além disso, os valores da mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.</p>
+<p align="justify">Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria negativa e por vezes quase simétrico. Além disso, os valores da mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.</p>
 
 ###### Gráfico 1: Boxplot da Acurácia Total
 [Boxplot da Acurácia Total](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotacuraciatotal.html)
@@ -96,12 +96,12 @@ Todos os índices de acurácia apresentam menores dispersões dos dados quando o
 [Histograma do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
 
 <p align="justify">Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Classes" variam em cada tipo de amostragem: sistemática e aleatória.
-Em relação à análise sistemárica, os índices apresentam o mesmo comportamento acima a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.</p>
+Em relação à análise sistemárica, os índices apresentam o mesmo comportamento acima, onde a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.</p>
  
 <p align="justify"><p align="justify">Quando há o aumento do número de classes em um tamanho de janela, como por exemplo 5x5, as acurácias calculadas se tornam menos dispersas, ou seja, há menor variabilidade dos dados, exceto para a acurácia atribuída de 0.50 e 0.70 que sofrem variações aumentando (Acurácia Total e Tau), diminuindo (Pi de Scott) e oscilando entre aumentar e diminuir (Pabak e Kappa).</p> 
 
-<p align="justify">À medida que o número de classes aumenta, as medidanas das acurácias calculadas de 0.50 e 0.70 variam em um intervalo de ±0.07 e 0.85 e 0.95 variam de ±0.05, isto acontece em todos os três tamanhos de janelas, sendo esse comportamento similar em todos os índices de acurácia.
-Quando o número de classes é constante e aumenta o tamanho da janela há uma redução da amplitude dos dados, porém as medianas não apresentam um comportamento de aumento ou redução, ou seja, ora aumenta ora diminui. Os intervalos interquartílicos sofrem menores variações (de aumento ou redução) quando os índices de acurácias são maiores (0.85 e 0.95), assim como são as acurácias que possuem seus valores mais próximos das acurácias calculadas. Mais uma vez tal comportamento é similar para todos os índices de acurácias.</p>
+<p align="justify">À medida que o número de classes aumenta, as medianas das acurácias calculadas de 0.50 e 0.70 variam em um intervalo de ±0.07 e 0.85 e 0.95 variam de ±0.05, isto acontece em todos os três tamanhos de janelas, sendo esse comportamento similar em todos os índices de acurácia.
+Quando o número de classes é constante e aumenta o tamanho da janela há uma redução da amplitude dos dados, porém as medianas não apresentam um comportamento de aumento ou redução, ou seja, ora aumenta ora diminui. Os intervalos interquartílicos sofrem menores variações (de aumento ou redução) quando os índices de acurácias são maiores (0.85 e 0.95), assim como são as acurácias que possuem seus valores mais próximos das acurácias calculadas. Mais uma vez, tal comportamento é similar para todos os índices de acurácias.</p>
  
 ###### Gráfico 11: Boxplots da Acurácia Total para amostragem sistemática
 [Boxplots da Acurácia Total para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpatsist.html)
@@ -118,8 +118,7 @@ Quando o número de classes é constante e aumenta o tamanho da janela há uma r
 ###### Gráfico 15: Boxplots do Índice de Tau para amostragem sistemática
 [Boxplots do Índice de Tau para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bptausist.html)
 
-
-
+<p align="justify">Analisando em relação à amostragem aleatória, o comportamento é similar ao da amostragem aleatória, contudo a amostragem aleatória apresenta seus valores medianos da acurácia calculada mais próximos das acurácias atribuídas, uma vez que na amostragem aleatória os dados tendem a ser maiores, favorecendo a proximidade da mediana e da média com as acurácias atribuídas. Além disso, a variação das medianas das acurácias calculadas de 0.50 e 0.70 são menores, em um intervalo de ±0.05 e 0.85 e 0.95 variam de ±0.02, isto acontece em todos os três tamanhos de janelas e classes, em todos os índices de acurácia.</p>
 
 ###### Gráfico 11: Boxplots  da Acurácia Total para amostragem aleatória
 [Boxplots  da Acurácia Total para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpataleatoria.html)
@@ -142,9 +141,10 @@ Quando o número de classes é constante e aumenta o tamanho da janela há uma r
 
 ### Conclusão 
 
-Pi de Scott e Kappa apresentam distribuições próximas uma da outra.
-À medida que aumenta o número de classes e a janela a acurácia atribuída tende a ser mais próxima da acurácia calculada,Já entre as amostra, a amostragem sistemática tende a apresentar maior concentração dos dados do que a aleatória.
-Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria positiva e por vezes quase simétrico. Além disso, os valores da média e mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.
+
+<p align="justify"> Tanto na amostragem sistemática quanto na aleatória, a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1, Pabak possui maior dispersão e interquartil dentre as acurácias, e os índices Pi de Scott e Kappa apresentam distribuições próximas uma da outra. 
+Contudo, a amostragem aleatória apresenta menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95). Além disso, em ambas as amostragens a variação entre as medianas das acurácias calculadas de 0.50 e 0.70 são maiores que de 0.85 e 0.95. Em relação ao aumento do tamanho da janela, há uma pequena redução no número de outliers, mas o aumento não influencia no aumento dos valores das acurácias, visto que as medianas permanceme próximas. Já o aumento do número de classes, faz com que as medianas se aproximem mais das acurácias atribuídas e reduzem a amplitude.
+Contudo na amostragem aleatória acontece uma menor variação, o que favorece a proximidade da mediana e da média com as acurácias atribuídas. 
 
 
 
