@@ -96,53 +96,52 @@ Todos os índices de acurácia apresentam menores dispersões dos dados quando o
 [Histograma do Índice de Tau](https://josiaparecida.github.io/projeto_visualizacao_dados/boxlplotTau.html)
 
 <p align="justify">Agora é realizada uma análise de como as variáveis "Tamanho da Janela" e "Classes" variam em cada tipo de amostragem: sistemática e aleatória.
-Em relação à análise sistemárica, os índices apresentam o mesmo comportamento acima a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.
+Em relação à análise sistemárica, os índices apresentam o mesmo comportamento acima a amplitude da acurácia total é a única que se mantém em um intervalo positivo, enquanto os índices restantes ficam entre -1 e 1. Pabak é o índice com os dados de acurácias mais dispersos em todas as acurácias atribuídas.</p>
  
-Quando há o aumento do número de classes em um tamanho de janela, como por exemplo 5x5, as acurácias calculadas se tornam menos dispersas, ou seja, há menor variabilidade dos dados, exceto para a acurácia atribuída de 0.50 e 0.70 que sofrem variações aumentando (Acurácia Total e Tau), diminuindo (Pi de Scott) e oscilando entre aumentar e diminuir (Pabak e Kappa).  
+<p align="justify"><p align="justify">Quando há o aumento do número de classes em um tamanho de janela, como por exemplo 5x5, as acurácias calculadas se tornam menos dispersas, ou seja, há menor variabilidade dos dados, exceto para a acurácia atribuída de 0.50 e 0.70 que sofrem variações aumentando (Acurácia Total e Tau), diminuindo (Pi de Scott) e oscilando entre aumentar e diminuir (Pabak e Kappa).</p> 
 
-À medida que o número de classes aumenta, as medidanas das acurácias calculadas de 0.50 e 0.70 variam em um intervalo de ±0.07 e 0.85 e 0.95 variam de ±0.05, isto acontece em todos os três tamanhos de janelas, sendo esse comportamento similar em todos os índices de acurácia.
+<p align="justify">À medida que o número de classes aumenta, as medidanas das acurácias calculadas de 0.50 e 0.70 variam em um intervalo de ±0.07 e 0.85 e 0.95 variam de ±0.05, isto acontece em todos os três tamanhos de janelas, sendo esse comportamento similar em todos os índices de acurácia.
 Quando o número de classes é constante e aumenta o tamanho da janela há uma redução da amplitude dos dados, porém as medianas não apresentam um comportamento de aumento ou redução, ou seja, ora aumenta ora diminui. Os intervalos interquartílicos sofrem menores variações (de aumento ou redução) quando os índices de acurácias são maiores (0.85 e 0.95), assim como são as acurácias que possuem seus valores mais próximos das acurácias calculadas. Mais uma vez tal comportamento é similar para todos os índices de acurácias.</p>
  
+###### Gráfico 11: Boxplots da Acurácia Total para amostragem sistemática
+[Boxplots da Acurácia Total para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpatsist.html)
 
+###### Gráfico 12: Boxplots do índice de Kappa para amostragem sistemática
+[Boxplots do Índice de Kappa para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpsist.html)
 
-###### Gráfico 11: Histograma da Acurácia Total para amostragem sistemática
-[Histograma da Acurácia Total para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpatsist.html)
+###### Gráfico 13: Boxplots do Índice de Pabak para amostragem sistemática
+[Boxplots do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppbsist.html)
 
-###### Gráfico 12: Histograma do índice de Kappa para amostragem sistemática
-[Histograma do Índice de Kappa para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpsist.html)
+###### Gráfico 14: Boxplots do Índice de Pi para amostragem sistemática
+[Boxplots do Índice de Pi para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppisiste.html)
 
-###### Gráfico 13: Histograma do Índice de Pabak para amostragem sistemática
-[Histograma do Índice de Pabak para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppbsist.html)
-
-###### Gráfico 14: Histograma do Índice de Pi para amostragem sistemática
-[Histograma do Índice de Pi para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bppisiste.html)
-
-###### Gráfico 15: Histograma do Índice de Tau para amostragem sistemática
-[Histograma do Índice de Tau para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bptausist.html)
+###### Gráfico 15: Boxplots do Índice de Tau para amostragem sistemática
+[Boxplots do Índice de Tau para amostragem sistemática](https://josiaparecida.github.io/projeto_visualizacao_dados/bptausist.html)
 
 
 
 
-###### Gráfico 11: Histograma da Acurácia Total para amostragem aleatória
-[Histograma da Acurácia Total para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpataleatoria.html)
+###### Gráfico 11: Boxplots  da Acurácia Total para amostragem aleatória
+[Boxplots  da Acurácia Total para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpataleatoria.html)
 
-###### Gráfico 12: Histograma do índice de Kappa para amostragem aleatória
-[Histograma do Índice de Kappa para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpaleatoria.html)
+###### Gráfico 12: Boxplots  do índice de Kappa para amostragem aleatória
+[Boxplots do Índice de Kappa para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bpkpaleatoria.html)
 
-###### Gráfico 13: Histograma do Índice de Pabak para amostragem aleatória
-[Histograma do Índice de Pabak para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppbaleatoria.html)
+###### Gráfico 13: Boxplots do Índice de Pabak para amostragem aleatória
+[Boxplots do Índice de Pabak para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppbaleatoria.html)
 
-###### Gráfico 14: Histograma do Índice de Pi para amostragem aleatória
-[Histograma do Índice de Pi para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppialeatoria.html)
+###### Gráfico 14: Boxplots do Índice de Pi para amostragem aleatória
+[Boxplots do Índice de Pi para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bppialeatoria.html)
 
-###### Gráfico 15: Histograma do Índice de Tau para amostragem aleatória
-[Histograma do Índice de Tau para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bptaualeatoria.html)
+###### Gráfico 15: Boxplots do Índice de Tau para amostragem aleatória
+[Boxplots do Índice de Tau para amostragem aleatória](https://josiaparecida.github.io/projeto_visualizacao_dados/bptaualeatoria.html)
 
 
-##### Gráfico 16: Paralelas coordenadas
-[Paralelas Coordenadas](https://josiaparecida.github.io/projeto_visualizacao_dados/paralelascoordenadas.html)
+##### Gráfico 16: Coordenadas Paralelas
+[Coordenadas Paralelas](https://josiaparecida.github.io/projeto_visualizacao_dados/paralelascoordenadas.html)
 
 ### Conclusão 
+
 Pi de Scott e Kappa apresentam distribuições próximas uma da outra.
 À medida que aumenta o número de classes e a janela a acurácia atribuída tende a ser mais próxima da acurácia calculada,Já entre as amostra, a amostragem sistemática tende a apresentar maior concentração dos dados do que a aleatória.
 Todos os índices de acurácia apresentam menores dispersões dos dados quando o índice de acurácia atribuída é maior (para 0.85 e 0.95) - se aproxima de 1 - apresentam uma leve assimetria positiva e por vezes quase simétrico. Além disso, os valores da média e mediana tendem a se aproximar mais dos valores de acurácias atribuídas. O contrário acontece para os índices menores de 0.50 e 0.75, além disso esses valores de acurácias apresentam assimetria positiva em todos os cinco índices.
